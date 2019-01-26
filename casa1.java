@@ -17,14 +17,14 @@ public class casa1
             vettore[i] = stampante.nextInt();
        
       
-        somma = garage([] vettore, n);
+        somma = garage(vettore, n);
 
         System.out.println("la somma diventa" + somma);
 
      }
-}
 
-private static int garage(int [] a, int n) 
+
+private static int garage(int []vettore , int n) 
 {
   int somma = 0;
   for (int i = 0; i < n; i++) 
@@ -37,4 +37,6 @@ private static int garage(int [] a, int n)
         }
 
   return (somma);
+}
+
 }
