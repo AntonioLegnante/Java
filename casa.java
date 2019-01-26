@@ -1,4 +1,6 @@
-//programmo in Java 
+//Programmo in Java 
+
+//Primo programma
 
 import java.util.Scanner; //vado in negozio per aquistare 
 
